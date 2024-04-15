@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5AF5B42BCDEF1600506969 /* microphonemonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AF5B32BCDEF1600506969 /* microphonemonitorApp.swift */; };
+		EB5AF5B62BCDEF1600506969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AF5B52BCDEF1600506969 /* ContentView.swift */; };
+		EB5AF5B82BCDEF1800506969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5AF5B72BCDEF1800506969 /* Assets.xcassets */; };
+		EB5AF5BB2BCDEF1800506969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5AF5BA2BCDEF1800506969 /* Preview Assets.xcassets */; };
+		EB5AF5C62BCDEF1800506969 /* microphonemonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AF5C52BCDEF1800506969 /* microphonemonitorTests.swift */; };
+		EB5AF5D02BCDEF1800506969 /* microphonemonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AF5CF2BCDEF1800506969 /* microphonemonitorUITests.swift */; };
+		EB5AF5D22BCDEF1800506969 /* microphonemonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AF5D12BCDEF1800506969 /* microphonemonitorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB5AF5C22BCDEF1800506969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5AF5A82BCDEF1600506969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5AF5AF2BCDEF1600506969;
+			remoteInfo = microphonemonitor;
+		};
+		EB5AF5CC2BCDEF1800506969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB5AF5A82BCDEF1600506969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5AF5AF2BCDEF1600506969;
+			remoteInfo = microphonemonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB5AF5B02BCDEF1600506969 /* microphonemonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microphonemonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5AF5B32BCDEF1600506969 /* microphonemonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microphonemonitorApp.swift; sourceTree = "<group>"; };
+		EB5AF5B52BCDEF1600506969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB5AF5B72BCDEF1800506969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5AF5BA2BCDEF1800506969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB5AF5BC2BCDEF1800506969 /* microphonemonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = microphonemonitor.entitlements; sourceTree = "<group>"; };
+		EB5AF5C12BCDEF1800506969 /* microphonemonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microphonemonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5AF5C52BCDEF1800506969 /* microphonemonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microphonemonitorTests.swift; sourceTree = "<group>"; };
+		EB5AF5CB2BCDEF1800506969 /* microphonemonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microphonemonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5AF5CF2BCDEF1800506969 /* microphonemonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microphonemonitorUITests.swift; sourceTree = "<group>"; };
+		EB5AF5D12BCDEF1800506969 /* microphonemonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microphonemonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5AF5AD2BCDEF1600506969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5AF5BE2BCDEF1800506969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5AF5C82BCDEF1800506969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5AF5A72BCDEF1600506969 = {
+			isa = PBXGroup;
+			children = (
+				EB5AF5B22BCDEF1600506969 /* microphonemonitor */,
+				EB5AF5C42BCDEF1800506969 /* microphonemonitorTests */,
+				EB5AF5CE2BCDEF1800506969 /* microphonemonitorUITests */,
+				EB5AF5B12BCDEF1600506969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5AF5B12BCDEF1600506969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AF5B02BCDEF1600506969 /* microphonemonitor.app */,
+				EB5AF5C12BCDEF1800506969 /* microphonemonitorTests.xctest */,
+				EB5AF5CB2BCDEF1800506969 /* microphonemonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5AF5B22BCDEF1600506969 /* microphonemonitor */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AF5B32BCDEF1600506969 /* microphonemonitorApp.swift */,
+				EB5AF5B52BCDEF1600506969 /* ContentView.swift */,
+				EB5AF5B72BCDEF1800506969 /* Assets.xcassets */,
+				EB5AF5BC2BCDEF1800506969 /* microphonemonitor.entitlements */,
+				EB5AF5B92BCDEF1800506969 /* Preview Content */,
+			);
+			path = microphonemonitor;
+			sourceTree = "<group>";
+		};
+		EB5AF5B92BCDEF1800506969 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AF5BA2BCDEF1800506969 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB5AF5C42BCDEF1800506969 /* microphonemonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AF5C52BCDEF1800506969 /* microphonemonitorTests.swift */,
+			);
+			path = microphonemonitorTests;
+			sourceTree = "<group>";
+		};
+		EB5AF5CE2BCDEF1800506969 /* microphonemonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AF5CF2BCDEF1800506969 /* microphonemonitorUITests.swift */,
+				EB5AF5D12BCDEF1800506969 /* microphonemonitorUITestsLaunchTests.swift */,
+			);
+			path = microphonemonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5AF5AF2BCDEF1600506969 /* microphonemonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5AF5D52BCDEF1800506969 /* Build configuration list for PBXNativeTarget "microphonemonitor" */;
+			buildPhases = (
+				EB5AF5AC2BCDEF1600506969 /* Sources */,
+				EB5AF5AD2BCDEF1600506969 /* Frameworks */,
+				EB5AF5AE2BCDEF1600506969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microphonemonitor;
+			productName = microphonemonitor;
+			productReference = EB5AF5B02BCDEF1600506969 /* microphonemonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB5AF5C02BCDEF1800506969 /* microphonemonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5AF5D82BCDEF1800506969 /* Build configuration list for PBXNativeTarget "microphonemonitorTests" */;
+			buildPhases = (
+				EB5AF5BD2BCDEF1800506969 /* Sources */,
+				EB5AF5BE2BCDEF1800506969 /* Frameworks */,
+				EB5AF5BF2BCDEF1800506969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB5AF5C32BCDEF1800506969 /* PBXTargetDependency */,
+			);
+			name = microphonemonitorTests;
+			productName = microphonemonitorTests;
+			productReference = EB5AF5C12BCDEF1800506969 /* microphonemonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB5AF5CA2BCDEF1800506969 /* microphonemonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5AF5DB2BCDEF1800506969 /* Build configuration list for PBXNativeTarget "microphonemonitorUITests" */;
+			buildPhases = (
+				EB5AF5C72BCDEF1800506969 /* Sources */,
+				EB5AF5C82BCDEF1800506969 /* Frameworks */,
+				EB5AF5C92BCDEF1800506969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB5AF5CD2BCDEF1800506969 /* PBXTargetDependency */,
+			);
+			name = microphonemonitorUITests;
+			productName = microphonemonitorUITests;
+			productReference = EB5AF5CB2BCDEF1800506969 /* microphonemonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5AF5A82BCDEF1600506969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EB5AF5AF2BCDEF1600506969 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EB5AF5C02BCDEF1800506969 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EB5AF5AF2BCDEF1600506969;
+					};
+					EB5AF5CA2BCDEF1800506969 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EB5AF5AF2BCDEF1600506969;
+					};
+				};
+			};
+			buildConfigurationList = EB5AF5AB2BCDEF1600506969 /* Build configuration list for PBXProject "microphonemonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5AF5A72BCDEF1600506969;
+			productRefGroup = EB5AF5B12BCDEF1600506969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5AF5AF2BCDEF1600506969 /* microphonemonitor */,
+				EB5AF5C02BCDEF1800506969 /* microphonemonitorTests */,
+				EB5AF5CA2BCDEF1800506969 /* microphonemonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB5AF5AE2BCDEF1600506969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5AF5BB2BCDEF1800506969 /* Preview Assets.xcassets in Resources */,
+				EB5AF5B82BCDEF1800506969 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5AF5BF2BCDEF1800506969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5AF5C92BCDEF1800506969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5AF5AC2BCDEF1600506969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5AF5B62BCDEF1600506969 /* ContentView.swift in Sources */,
+				EB5AF5B42BCDEF1600506969 /* microphonemonitorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5AF5BD2BCDEF1800506969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5AF5C62BCDEF1800506969 /* microphonemonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5AF5C72BCDEF1800506969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5AF5D02BCDEF1800506969 /* microphonemonitorUITests.swift in Sources */,
+				EB5AF5D22BCDEF1800506969 /* microphonemonitorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB5AF5C32BCDEF1800506969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5AF5AF2BCDEF1600506969 /* microphonemonitor */;
+			targetProxy = EB5AF5C22BCDEF1800506969 /* PBXContainerItemProxy */;
+		};
+		EB5AF5CD2BCDEF1800506969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5AF5AF2BCDEF1600506969 /* microphonemonitor */;
+			targetProxy = EB5AF5CC2BCDEF1800506969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB5AF5D32BCDEF1800506969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB5AF5D42BCDEF1800506969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EB5AF5D62BCDEF1800506969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = microphonemonitor/microphonemonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microphonemonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = MYY7Y92875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.deg84.microphonemonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB5AF5D72BCDEF1800506969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = microphonemonitor/microphonemonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microphonemonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = MYY7Y92875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.deg84.microphonemonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB5AF5D92BCDEF1800506969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MYY7Y92875;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.deg84.microphonemonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microphonemonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microphonemonitor";
+			};
+			name = Debug;
+		};
+		EB5AF5DA2BCDEF1800506969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MYY7Y92875;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.deg84.microphonemonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microphonemonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microphonemonitor";
+			};
+			name = Release;
+		};
+		EB5AF5DC2BCDEF1800506969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MYY7Y92875;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.deg84.microphonemonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = microphonemonitor;
+			};
+			name = Debug;
+		};
+		EB5AF5DD2BCDEF1800506969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MYY7Y92875;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.deg84.microphonemonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = microphonemonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5AF5AB2BCDEF1600506969 /* Build configuration list for PBXProject "microphonemonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5AF5D32BCDEF1800506969 /* Debug */,
+				EB5AF5D42BCDEF1800506969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5AF5D52BCDEF1800506969 /* Build configuration list for PBXNativeTarget "microphonemonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5AF5D62BCDEF1800506969 /* Debug */,
+				EB5AF5D72BCDEF1800506969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5AF5D82BCDEF1800506969 /* Build configuration list for PBXNativeTarget "microphonemonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5AF5D92BCDEF1800506969 /* Debug */,
+				EB5AF5DA2BCDEF1800506969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5AF5DB2BCDEF1800506969 /* Build configuration list for PBXNativeTarget "microphonemonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5AF5DC2BCDEF1800506969 /* Debug */,
+				EB5AF5DD2BCDEF1800506969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5AF5A82BCDEF1600506969 /* Project object */;
+}
